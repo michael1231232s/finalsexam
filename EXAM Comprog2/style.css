@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.header{
+    background: rgb(77, 3, 46);
+    display: block;
+    padding: 20px;  
+}
+.logo{
+    align-content: center;
+    display: block;
+    margin: 0 auto;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+}
+.nav{
+    max-width: 90%;
+    display: block;
+    margin: 5px auto 5px auto;
+  
+}
+.nav 
+{
+    display: table;
+    padding: 10px;
+    margin: 0px auto;
+    overflow: hidden;
+}
+
+.nav a{
+    font-size: 1.8vmax;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    line-height: 50px;
+    display:inline-block; 
+}
+.nav a:hover{
+    color: rgb(236, 60, 106);
+}
+.slide{
+    position: relative;
+    display:none;
+}
+.slideimage{
+    width: 100%;
+    height: 600px;
+}
+.bold{
+    padding-bottom: 5px;
+    font-size: 3vw;  
+    font-weight: 900;
+}
+.simple{
+    font-size: 2.5vw;  
+}
+.slidetext{
+    position: absolute; 
+    top: 30%; 
+    right: 50%;     
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255, 0.7);
+    padding: 70px;
+}
+.rooms:focus {
+    outline: none;
+}
+.rooms a:focus {
+    outline: none;
+}
+.rooms{
+    display: block;
+    background: rgb(53, 53, 53);
+    max-width: 33.33%;
+    width: 33.33%;
+}
+.rooms img{
+    max-width: 100%;
+    width: 100%;
+    height: 150px;
+}
+.rooms p{
+    font-size: 3vh;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 5%;
+}
+.rooms a{
+    text-decoration: none;
+}
+.rooms a p:hover{
+    color: rgb(236, 60, 106);
+}
+.flex{
+    display: flex;
+}
+.service{
+    max-width: 30%;
+    width: 30%;
+    margin: 1.5% 12% 1.5% 10%;  
+}
+.servicesect{
+    display: flex;
+}
+.serimg{
+    display: inline-block;
+    max-width: 20%;
+    width: 10%;
+    height: auto;
+    padding-bottom: 10%;
+}
+.service div{
+    display: inline-block;
+    max-width: 75%;
+    padding: 5%;
+}
+.service p{
+    font-size: 1.5vmax;
+}
+.service .bas{
+    padding-bottom: 2%;
+    font-weight: 700;
+}
+.res{
+    background: rgb(77, 3, 46);
+    padding: 2%;
+}
+.resbut p{
+    display: table;
+    max-width: 30%;
+    margin: 0 auto;
+    font-size: 2.5vw;
+    padding: 2%;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    border: 1px solid rgb(255, 255, 255);
+}
+.resbut a{
+    text-decoration: none;
+}
+.resbut p:hover{
+    color: rgb(236, 60, 106);
+    background: rgb(255, 255, 255);
+}
+.footer{
+    background: rgb(33, 31, 23);
+    display: block;
+    padding: 20px;
+    position: relative;
+}
+.us{
+    display: inline-table;
+    max-width: 30%;
+    width: 30%;
+    margin: 2% 0 2% 4%
+}
+
+.address{
+    display: inline-table;
+    max-width: 30%;
+    width: 30%;
+    margin: 2% 0 2% 25%
+}
+
+.us .bold, .tm-address .bold{
+    color: rgb(236, 60, 106);
+    font-size: 3vh;
+    font-weight: 700;
+    padding-bottom: 4%;
+}
+
+.us p, .address p{
+    color: rgb(255, 255, 255);
+    font-size: 2.5vh;
+}
+
+
+.main{
+    background: rgb(77, 3, 46);
+    padding: 2%;
+    border-top:  3px solid black;
+}
+.main p{
+    display: table;
+    max-width: 30%;
+    margin: 0 auto;
+    font-size: 4vw;
+    padding: 2%;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+.exp1, .exp2{
+    background: rgb(53, 53, 53);
+}
+.exp1::after{
+    content:" ";
+    display: block;
+    clear: both;
+}
+.exp2::after{
+    content:" ";
+    display: block;
+    clear: both;
+}
+.exp1 p{
+    float: right;
+    padding-right: 5%;
+    padding-top: 15%;
+    max-width: 30%;
+    font-size: 3.5vw;
+    color: rgb(255, 255, 255);
+}
+.exp2 p{
+    float: left;
+    padding-left: 5%;
+    padding-top: 15%;
+    max-width: 30%;
+    font-size: 3.5vw;
+    color: rgb(255, 255, 255);
+}
+.exp1 img{
+    display: block;
+    float: left;
+    max-width: 60%;
+    width: 60%;
+    height: 400px;
+}
+.exp2 img{
+    display: block;
+    float: right;
+    max-width: 60%;
+    width: 60%;
+    height: 400px;
+  
+}
+.explore::after{
+    content: ".";
+    font-size: xx-small;
+    visibility: hidden;
+}
+
+.roomsect{
+    display: flex;
+}
+
+.room1{
+    max-width: 33.33333%;
+    width: 33.333333%;
+    background: #353535;
+    display: inline-block;
+    margin: 0px;
+    position: relative;
+}
+
+.room1 p{
+    font-size: 2.5vw;
+    color: #fff;
+    text-align: center;
+    padding: 5%;
+    z-index: 2;
+    position: relative;
+}
+
+.roomimg{
+    max-width: 100%;
+    width: 100%;
+    height: 250px;    
+}
+
+.trans{
+    display: inline-block;
+    position: absolute;
+    top: 78%; 
+    color: #fff;
+    max-width: 100%;
+    width: 100%;
+    height: 0%; 
+    background: rgba(53, 53, 53,0.7);
+    opacity: 0; 
+}
+
+.trans p{
+    font-size: 1.8vw;
+}
+.trans div{
+    display: inline-table;
+    width: 40%;
+    max-width: 40%;
+    margin: 2%;
+}
+
+.trans div .bold{
+    color: rgb(255, 141, 154);
+}
+.room1:hover .trans{
+    top:30%;
+    transition: top 1s, opacity 1s, height 1s;
+    opacity: 1;
+    height: 50%;
+    z-index: 1;
+}
+.booking
+{
+    background: #353535;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.form1{
+    padding: 2% 10% 21%, 10%;
+}
+.form1{
+    float:left;
+}
+input, select, textarea,
+input::-webkit-input-placeholder {
+    font-size: 2vw;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+input, select, textarea{
+    color: #ec3d68;
+}
+input::-webkit-input-placeholder{
+    color: #f17c94;
+}
+textarea::-webkit-input-placeholder{
+    color: #f17c94;
+}
+label{
+    font-size: 2vw;
+    color: #fff;
+    font-weight: 700;
+}
+.booking::after{
+    content:" ";
+    display: block;
+    clear: both;
+}
+@media screen and (max-width: 750px) {
+    .nav a:not(:first-child) {display: none;}
+    .nav a.icon {
+        display: block;
+    }
+}
+  
+@media screen and (max-width: 750px) {
+    .nav.responsive {position: relative;}  
+    .nav.responsive .icon {
+      display: block;;
+    }
+    .nav.responsive a {
+       float: none;
+       display: block;
+       text-align: left;
+    }
+}
+.nav .icon{
+    display: none;
+}
